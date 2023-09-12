@@ -1,9 +1,13 @@
+package RPM::VersionSort::PP;
+
 use strict;
 use warnings;
-package RPM::VersionSort::PP;
+use utf8;
 use parent 'Exporter';
 
 our @EXPORT = 'rpmvercmp';
+
+=encoding utf8
 
 =head1 NAME
 
